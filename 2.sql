@@ -33,4 +33,4 @@ ORDER BY age;
 SELECT age, MAX(salary) AS max_salary
 FROM worker1
 GROUP BY age
-ORDER BY max_salary desc;
+ORDER BY max_salary DESC;
